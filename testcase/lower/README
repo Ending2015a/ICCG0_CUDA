@@ -1,0 +1,10 @@
+case_*.in: Symmetric matrix only lower triangle part
+
+[ N (int) | nz (int) ]
+[ RowIdx (int) | ColIdx (int) | Val (double) ] * nz
+[ b (double) * N ]
+
+case_*.out: Vector
+
+[ N (int) ]
+[ x (double) * N]
